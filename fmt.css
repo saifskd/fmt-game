@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
 }
 
 body{
@@ -143,4 +146,20 @@ body{
     color: #ffffff;
 }
 
+
+@media only screen and (max-width: 600px){
+    .heading{
+        font-size: 40px;
+    }
+
+    .msg h2 {
+    font-size: 20px;
+    }
+
+    .popup{
+        padding: 20px;
+        height: auto;
+        width: 95%;
+    }
+}
 
